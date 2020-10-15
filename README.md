@@ -6,15 +6,14 @@ https://github.com/Azure/mmlspark/blob/master/notebooks/samples/TextAnalytics%20
 
 # INSTRUCTIONS FOR USE
 
-1. Create a CML Project from this git repo
+1. Create an empty CML Project (not from the git repo)
 
-- Copy the git url from here: https://github.com/pdefusco/mmlspark_cml_quickstart
-- In CML, click on "Create Project" 
-- Select the "Git" option in the "Initial Setup" section
-- Paste the git url
+- In CML, launch a Session with Workbench editor 
+- Launch the Terminal Editor
+- Clone the repository with "git clone https://github.com/pdefusco/mmlspark_cml_quickstart.git"
+- The project files will be saved into the mmlspark_cml_quickstart directory
 
 2. Run the mmlspark_cml_quickstart.py file in a CML Session
 
-- Launch a CML Session with Workbench editor
-- Run the entire script
+- Using the same or a new CML Session, run the entire script
 - Notice the mmlspark library is being loaded from Maven via SparkSession
