@@ -6,6 +6,8 @@ https://github.com/Azure/mmlspark/blob/master/notebooks/samples/TextAnalytics%20
 
 # INSTRUCTIONS FOR USE
 
+### NB: Do not install the library with the pip command. This is not required and will conflict with the below approach.
+
 1. Create an empty CML Project (not from the git repo)
 
 - In CML, launch a Session with Workbench editor 
